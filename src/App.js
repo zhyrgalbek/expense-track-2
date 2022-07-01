@@ -52,7 +52,7 @@ function App() {
     <div className="App">
       <Header />
       <Switch>
-        <Route path="/" exact>
+        <Route path="/expense-track-2" exact>
           <Redirect to="/new-expense" />
         </Route>
         <Route path="/new-expense" >
